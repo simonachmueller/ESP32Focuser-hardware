@@ -29,6 +29,9 @@ Please use the wiring table as reference, it might get outdated. For the most la
 | 5V          | 5V          | VDD           |      |
 | 12V         |             | VM            | Motor power supply |
 
+## Stepper motor
+I use the 17HS2408 stepper motor, as it fits well for 12v supply: it has 8 Ohm phase resistance what leads to 1.5 Amps phase current, it's a bit over the specification (rated current 0.6 Amps) but as it's not supposed to continuously work on high speed in this project ,it works just fine, has enough torque and does smooth movements. 
+
 ## KiCad project
 Schematics diagram can be found in the KiCad project [folder](/schematics) 
 
