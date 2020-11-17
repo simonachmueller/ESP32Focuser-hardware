@@ -41,7 +41,7 @@ Aka bill of material
 | 17HS2408 stepper motor    | https://www.aliexpress.com/item/33033986185.html     | ![](/pictures/parts/17HS2408.png) |
 | 7 M3 screws for motor and encoder  | https://www.aliexpress.com/item/32965979997.html     | M3 50pcs + 5mm  |
 | TMC2209 board             | https://www.aliexpress.com/item/33029587820.html     | ![](/pictures/parts/TMC2209.jpg) |
-| Optical rotary encoder CALT ES38    | https://www.aliexpress.com/item/33028641351.html | 5v 600ppr |
+| Optical rotary encoder CALT ES38    | https://www.aliexpress.com/item/33028641351.html | 5v 600ppr ![](/pictures/parts/encoder.png) |
 | Encoder knob | https://www.aliexpress.com/item/33039964137.html |![](/pictures/parts/encoder-knob.png) |
 | Motor shaft coupler 5mm x ?? mm| https://www.aliexpress.com/item/32913158582.html |![](/pictures/parts/shaft-coupler.png)|
 | 12v female plug 5.5mm x 2.1mm | | ![](/pictures/parts/12v-connector.png) |
