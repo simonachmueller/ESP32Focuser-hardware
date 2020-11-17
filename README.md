@@ -54,6 +54,7 @@ Aka bill of material
 | Micro USB cable | tbd | |
 | 2.54mm Wire Cable Connector 4 pin | https://www.aliexpress.com/item/32954418743.html | ![](/pictures/parts/2.54mm-wire-cable-connector.png)|
 | Prototyping board 5x7 cm | https://www.aliexpress.com/item/32853911495.html | ![](/pictures/parts/5x7-board.png) |
+| Cable for motor 4 cores 0.3mm 22awg | https://www.aliexpress.com/item/4000714461664.html |![](/pictures/parts/motor-cable.png) |
 
 
 ## KiCad project
