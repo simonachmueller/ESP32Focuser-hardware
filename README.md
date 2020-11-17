@@ -37,8 +37,8 @@ Aka bill of material
 
 |     Description           |                   AliExpress link                    |  Notes          |
 | ------------------------- | ---------------------------------------------------- | --------------- | 
-| ESP32-DevKitC             | https:/www.aliexpress.com/item/4000103411061.html   |  ![](/pictures/parts/esp32-devkitc.png) |
-| 17HS2408 stepper motor    | https:/www.aliexpress.com/item/33033986185.html     |                 |
+| ESP32-DevKitC             | https:/www.aliexpress.com/item/4000103411061.html   | ![](/pictures/parts/esp32-devkitc.png) |
+| 17HS2408 stepper motor    | https:/www.aliexpress.com/item/33033986185.html     | ![](/pictures/parts/17HS2408.png) |
 | 7 M3 screws for motor and encoder  | https:/www.aliexpress.com/item/32965979997.html     | M3 50pcs + 5mm  |
 | TMC2209 board             | https:/www.aliexpress.com/item/33029587820.html     | ![](/pictures/parts/TMC2209.jpg) |
 | Optical rotary encoder CALT ES38    | https:/www.aliexpress.com/item/33028641351.html | 5v 600ppr |
