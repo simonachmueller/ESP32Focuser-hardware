@@ -51,6 +51,9 @@ Aka bill of material
 | 115 90 55mm plastic enclosure case | https://www.aliexpress.com/item/32709832386.html | ![](/pictures/parts/box1.png) |
 | 100x68x50mm plastic enclosure case for encoder | https://www.aliexpress.com/item/32792270384.html |![](/pictures/parts/box2.png) |
 | Push button for handcontroller | https://www.aliexpress.com/item/32965284265.html |![](/pictures/parts/push-button.png)|
+| Micro USB cable | tbd | |
+| 2.54mm Wire Cable Connector 4 pin | https://www.aliexpress.com/item/32954418743.html | ![](/pictures/parts/2.54mm-wire-cable-connector.png)|
+| Prototyping board 5x7 cm | https://www.aliexpress.com/item/32853911495.html | ![](/pictures/parts/5x7-board.png) |
 
 
 ## KiCad project
