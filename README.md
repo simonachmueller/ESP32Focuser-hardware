@@ -42,8 +42,11 @@ Aka bill of material
 | 7 M3 screws for motor and encoder  | https://www.aliexpress.com/item/32965979997.html     | M3 50pcs + 5mm  |
 | TMC2209 board             | https://www.aliexpress.com/item/33029587820.html     | ![](/pictures/parts/TMC2209.jpg) |
 | Optical rotary encoder CALT ES38    | https://www.aliexpress.com/item/33028641351.html | 5v 600ppr ![](/pictures/parts/encoder.png) |
-| Encoder knob | https://www.aliexpress.com/item/33039964137.html |![](/pictures/parts/encoder-knob.png) |
+| 13x32mm Encoder knob | https://www.aliexpress.com/item/33039964137.html |![](/pictures/parts/encoder-knob.png) |
 | Motor shaft coupler 5mm x ?? mm| https://www.aliexpress.com/item/32913158582.html |![](/pictures/parts/shaft-coupler.png)|
+| OR alternatively to the direct coupling your motor with the focuser, you could use a belt like this below|||
+| GT2 Pulley 20 tooth ø 5mm| https://www.aliexpress.com/item/32724156349.html |![](/pictures/parts/pulley-20-tooth.png)|
+| GT2 Closed Loop Timing Belt | https://www.aliexpress.com/item/32950422029.html |![](/pictures/parts/belt.png)|
 | 12v female plug 5.5mm x 2.1mm | | ![](/pictures/parts/12v-connector.png) |
 | 12v→5v DC-DC step down converter board| https://www.aliexpress.com/item/32742116421.html |![](/pictures/parts/12v-to-5v-step-down-converter.png)|
 | Hand controller connector M GX12 5 pin for encoder | https://www.aliexpress.com/item/32869491577.html |![](/pictures/parts/gx12-connector.png) |
