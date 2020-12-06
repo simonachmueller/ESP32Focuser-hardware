@@ -61,7 +61,7 @@ Aka bill of material
 
 
 ## KiCad project
-Schematics diagram can be found in the KiCad project [folder](/schematics) 
+Schematics diagram can be found in the KiCad project [folder](/schematics). You can donwload shematics as pdf [here](/schematics/ESP32Focuser.sch.pdf).
 
 # Pictures
 
