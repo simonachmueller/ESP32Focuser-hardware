@@ -1,23 +1,20 @@
-# ESP32Focuser Hardware
-This is a repository for storing documentation for my [ESP32Focuser](https://github.com/semenmiroshnichenko/ESP32Focuser) project.
+# ESP32Focuser-Hardware
+Dies ist ein Repository zum Speichern der Dokumentation für mein Projekt [ESP32Focuser](https://github.com/semenmiroshnichenko/ESP32Focuser).
 
-Описание ![на русском](/README.RU.md)
-Deutsche ![Beschreibung](/README.DE.md)
+# Worum geht es?
+Fokussierer für Teleskop basierend auf ESP32-Controller. Kompatibel mit Indilib (http://indilib.org/) und ASCOM (https://ascom-standards.org/).
+Der Controller verwendet das Protokoll Moonlite (wie im Indilib-Projekt dokumentiert).
 
-# What is that about
-Focuser for astronomy telescope based on ESP32 controller. Comportable with Indilib (http:/indilib.org/) and ASCOM (https://ascom-standards.org/).
-The controller uses the protocol Moonlite (as documented in the indilib project).
+# Welche Hardware brauche ich?
+Die Firmware läuft auf einer [ESP32-DevKitC](https://www.espressif.com/de/products/devkits/esp32-devkitc/overview) Platiene. Es verwendet auch den [BIGTREETECH TMC2209 V1.2 Schrittmotortreiber](https://github.com/bigtreetech/BIGTREETECH-TMC2209-V1.2), um den Motor super leisen und vibrationsfrei anzutreiben. Grundsätzlich benötigen Sie nur diese beiden Platienen, um den Fokussierer zu bauen. Wenn Sie es auf eine stabilere Art und Weise bauen möchten, können Sie den folgenden Anweisungen folgen.
 
-# What hardware do I need
-The firmware runs on a [ESP32-DevKitC](https://www.espressif.com/en/products/devkits/esp32-devkitc/overview) board. It uses also the [BIGTREETECH TMC2209 V1.2 Stepper Motor Driver](https://github.com/bigtreetech/BIGTREETECH-TMC2209-V1.2) to drive the motor on a super-silent and vibrationless way. Basically, you only need this two boards to start using the focuser. If you want to build it on a more resilient way, you can follow intructions below.
+# Schaltplan
+Das Schaltplandiagramm befindet sich als KiCad-Projekt [Ordner](/schematics). Sie können den Schaltplan als pdf [hier](/schematics/ESP32Focuser.sch.pdf) herunterladen.
 
-# Schematics
-Schematics diagram can be found as a KiCad project [folder](/schematics). You can donwload shematics as pdf [here](/schematics/ESP32Focuser.sch.pdf).
+Das Schema ist ziemlich einfach. Sie verbinden einfach die Pins der ESP32-Entwicklungskarte mit der TMC2209-Karte, fügen ein Netzteil hinzu und schließen den Motor an - von diesem Punkt aus können Sie den Fokussierer vom Computer über den ASCOM / INDI-Treiber steuern. Wenn Sie einen optischen Encoder als Handcontroller verwenden möchten (was ich Ihnen wirklich empfehlen würde, wenn Sie Vibrationen beim Berühren des Teleskop-Fokussierknopfs beseitigen möchten), schließen Sie ihn ebenfalls an die Stifte auf der ESP32-Platine an.
 
-The schematics is pretty easy. You just connect the pins of the ESP32 dev board with the TMC2209 board, add power supply and connect motor - from this point you can control the focuser from the computer over ASCOM/INDI driver. If you want to use an optical encoder as a handcontroller (what I would really advise you if you want to get rid of vibrations when you touch the telescope focuser knob), connect it to the pins on the ESP32 board as well.
-
-## Wiring table
-Please use the wiring table as reference, it might get outdated. For the most latest schematics version, check the KiCad project.
+## Verdrahtungstabelle
+Bitte verwenden Sie die Verkabelungstabelle als Referenz, da diese möglicherweise veraltet ist. Die neueste Schaltplanversion finden Sie im KiCad-Projekt.
 
 | Description | ESP32 board | TMC2209 board | Note |
 | ----------- | ----------- | ------------- | ---- | 
@@ -33,12 +30,10 @@ Please use the wiring table as reference, it might get outdated. For the most la
 | 5V          | 5V          | VDD           |      |
 | 12V         |             | VM            | Motor power supply |
 
-## Stepper motor
-I use the 17HS2408 stepper motor, as it fits well for 12v supply: it has 8 Ohm phase resistance what leads to 1.5 Amps phase current, it's a bit over the specification (rated current 0.6 Amps) but as it's not supposed to continuously work on high speed in this project,it works just fine, has enough torque and does smooth movements. 
+## Schrittmotor
+Ich verwende den Schrittmotor 17HS2408, da er gut für die 12-V-Versorgung geeignet ist: er hat einen Phasenwiderstand von 8 Ohm, was zu einem Phasenstrom von 1,5 Ampere führt. Er liegt etwas über der Spezifikation (Nennstrom 0,6 Ampere), soll aber nicht kontinuierlich auf eine hohe Geschwindigkeit laufen, es funktioniert gut, hat genug Drehmoment und macht sanfte Bewegungen.
 
-## BOM
-Aka bill of material
-
+## Stückliste
 |     Description           |                   AliExpress link                    |  Notes          |
 | ------------------------- | ---------------------------------------------------- | --------------- | 
 | ESP32-DevKitC             | https://www.aliexpress.com/item/4000103411061.html   | ![](/pictures/parts/esp32-devkitc.png) |
@@ -64,7 +59,7 @@ Aka bill of material
 | Cable for motor 4 cores 0.3mm 22awg | https://www.aliexpress.com/item/4000714461664.html |![](/pictures/parts/motor-cable.png) |
 
 
-# Pictures
+# Bilder
 
 ![board1.jpg](/pictures/board1.jpg)
 ![board2.jpg](/pictures/board2.jpg)
