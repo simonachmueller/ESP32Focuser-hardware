@@ -1,6 +1,7 @@
 # ESP32Focuser Hardware
-
 This is a repository for storing documentation for my [ESP32Focuser](https://github.com/semenmiroshnichenko/ESP32Focuser) project.
+
+Описание ![на русском](/README.RU.md)
 
 # What is that about
 Focuser for astronomy telescope based on ESP32 controller. Comportable with Indilib (http:/indilib.org/) and ASCOM (https://ascom-standards.org/).
