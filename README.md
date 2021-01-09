@@ -69,3 +69,6 @@ Schematics diagram can be found in the KiCad project [folder](/schematics). You 
 ![board2.jpg](/pictures/board2.jpg)
 ![handcontroller.jpg](/pictures/handcontroller.jpg)
 ![assembled.jpg](/pictures/assembled.jpg)
+![assembled2.jpg](/pictures/assembled2.jpg)
+![assembled3.jpg](/pictures/assembled3.jpg)
+![assembled4.jpg](/pictures/assembled4.jpg)
