@@ -6,7 +6,7 @@ Fokussierer für Teleskop basierend auf ESP32-Controller. Kompatibel mit Indilib
 Der Controller verwendet das Protokoll Moonlite (wie im Indilib-Projekt dokumentiert).
 
 # Welche Hardware brauche ich?
-Die Firmware läuft auf einer [ESP32-DevKitC](https://www.espressif.com/de/products/devkits/esp32-devkitc/overview) Platiene. Es verwendet auch den [BIGTREETECH TMC2209 V1.2 Schrittmotortreiber](https://github.com/bigtreetech/BIGTREETECH-TMC2209-V1.2), um den Motor super leisen und vibrationsfrei anzutreiben. Grundsätzlich benötigen Sie nur diese beiden Platienen, um den Fokussierer zu bauen. Wenn Sie es auf eine stabilere Art und Weise bauen möchten, können Sie den folgenden Anweisungen folgen.
+Die Firmware läuft auf einer [ESP32-DevKitC](https://www.espressif.com/de/products/devkits/esp32-devkitc/overview) Leiterplatte. Es verwendet auch den [BIGTREETECH TMC2209 V1.2 Schrittmotortreiber](https://github.com/bigtreetech/BIGTREETECH-TMC2209-V1.2), um den Motor super leisen und vibrationsfrei anzutreiben. Grundsätzlich benötigen Sie nur diese beiden Leiterplatten, um den Fokussierer zu bauen. Wenn Sie es auf eine stabilere Art und Weise bauen möchten, können Sie den folgenden Anweisungen folgen.
 
 # Schaltplan
 Das Schaltplandiagramm befindet sich als KiCad-Projekt [Ordner](/schematics). Sie können den Schaltplan als pdf [hier](/schematics/ESP32Focuser.sch.pdf) herunterladen.
