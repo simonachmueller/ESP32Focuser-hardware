@@ -11,6 +11,7 @@ The controller uses the protocol Moonlite (as documented in the indilib project)
 The firmware runs on a [ESP32-DevKitC](https://www.espressif.com/en/products/devkits/esp32-devkitc/overview) board. It uses also the [BIGTREETECH TMC2209 V1.2 Stepper Motor Driver](https://github.com/bigtreetech/BIGTREETECH-TMC2209-V1.2) to drive the motor on a super-silent and vibrationless way. Basically, you only need this two boards to start using the focuser. If you want to build it on a more resilient way, you can follow intructions below.
 
 # Schematics
+Schematics diagram can be found as a KiCad project [folder](/schematics). You can donwload shematics as pdf [here](/schematics/ESP32Focuser.sch.pdf).
 The schematics is pretty easy. You just connect the pins of the ESP32 dev board with the TMC2209 board, add power supply and connect motor - from this point you can control the focuser from the computer over ASCOM/INDI driver. If you want to use an optical encoder as a handcontroller (what I would really advise you if you want to get rid of vibrations when you touch the telescope focuser knob), connect it to the pins on the ESP32 board as well.
 
 ## Wiring table
@@ -60,9 +61,6 @@ Aka bill of material
 | Prototyping board 5x7 cm | https://www.aliexpress.com/item/32853911495.html | ![](/pictures/parts/5x7-board.png) |
 | Cable for motor 4 cores 0.3mm 22awg | https://www.aliexpress.com/item/4000714461664.html |![](/pictures/parts/motor-cable.png) |
 
-
-## KiCad project
-Schematics diagram can be found in the KiCad project [folder](/schematics). You can donwload shematics as pdf [here](/schematics/ESP32Focuser.sch.pdf).
 
 # Pictures
 

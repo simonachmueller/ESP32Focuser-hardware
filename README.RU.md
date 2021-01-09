@@ -1,15 +1,16 @@
 # ESP32Focuser Оборудование
 
-Это репозиторий для хранения документации для моего проекта [ESP32Focuser] (https://github.com/semenmiroshnichenko/ESP32Focuser).
+Это репозиторий для хранения документации для моего проекта [ESP32Focuser](https://github.com/semenmiroshnichenko/ESP32Focuser).
 
 # О чем это вообще
-Электрофокусёр для телескопа на базе контроллера ESP32. Совместимость с Indilib (http: /indilib.org/) и ASCOM (https://ascom-standards.org/).
+Электрофокусёр для телескопа на базе контроллера ESP32. Совместимость с Indilib (http://indilib.org/) и ASCOM (https://ascom-standards.org/).
 Контроллер использует протокол Moonlite (как описано в проекте Indilib).
 
 # Какое оборудование мне нужно
 Фокусер работает на плате [ESP32-DevKitC] (https://www.espressif.com/en/products/devkits/esp32-devkitc/overview). Он также использует [Драйвер шагового двигателя BIGTREETECH TMC2209 V1.2] (https://github.com/bigtreetech/BIGTREETECH-TMC2209-V1.2) для бесшумного и безвибрационного управления двигателем. По сути, вам понадобятся только эти две платы, чтобы начать использовать фокусер. Если вы хотите спаять надёжнее, следуйте инструкциям ниже.
 
 # Схема
+Схему в формате проекта KiCad [папка] (/schematics). Вы можете загрузить схему в формате pdf [здесь] (/schematics/ESP32Focuser.sch.pdf).
 Схема довольно проста. Вы просто соединяете контакты платы разработчика ESP32 с платой TMC2209, добавляете источник питания и подключаете двигатель - с этого момента вы можете управлять фокусером с компьютера через драйвер ASCOM / INDI. Если вы хотите использовать оптический кодировщик в качестве ручного контроллера (что я бы действительно посоветовал вам, если вы хотите избавиться от вибраций при прикосновении к ручке фокусера телескопа), также подключите его к контактам на плате ESP32.
 
 ## Таблица подключения
@@ -59,9 +60,6 @@
 | Prototyping board 5x7 cm | https://www.aliexpress.com/item/32853911495.html | ![](/pictures/parts/5x7-board.png) |
 | Cable for motor 4 cores 0.3mm 22awg | https://www.aliexpress.com/item/4000714461664.html |![](/pictures/parts/motor-cable.png) |
 
-
-## Проект KiCad
-Схематическую диаграмму можно найти в проекте KiCad [папка] (/ schematics). Вы можете загрузить схему в формате pdf [здесь] (/ schematics / ESP32Focuser.sch.pdf).
 
 # Фотографии
 ![board1.jpg](/pictures/board1.jpg)
