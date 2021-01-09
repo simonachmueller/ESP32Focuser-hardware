@@ -12,6 +12,7 @@ The firmware runs on a [ESP32-DevKitC](https://www.espressif.com/en/products/dev
 
 # Schematics
 Schematics diagram can be found as a KiCad project [folder](/schematics). You can donwload shematics as pdf [here](/schematics/ESP32Focuser.sch.pdf).
+
 The schematics is pretty easy. You just connect the pins of the ESP32 dev board with the TMC2209 board, add power supply and connect motor - from this point you can control the focuser from the computer over ASCOM/INDI driver. If you want to use an optical encoder as a handcontroller (what I would really advise you if you want to get rid of vibrations when you touch the telescope focuser knob), connect it to the pins on the ESP32 board as well.
 
 ## Wiring table
