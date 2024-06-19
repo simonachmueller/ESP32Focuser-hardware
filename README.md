@@ -1,5 +1,5 @@
 # ESP32Focuser Hardware
-This is a repository for storing documentation for my [ESP32Focuser](https://github.com/semenmiroshnichenko/ESP32Focuser) project.
+This is a repository for storing documentation for my [ESP32Focuser](https://github.com/simonachmueller/ESP32Focuser) project.
 
 Описание ![на русском](/README.RU.md)
 
